@@ -1,9 +1,4 @@
 ![Screenshot 2025-04-17 113022](https://github.com/user-attachments/assets/75a7f757-a067-41bf-940d-2ae933f2a342)
-flowchart LR
-    UI[React UI<br/>(ECS Fargate)]
-    API[Go API<br/>(Gin + WS)]
-    DB[(Postgres)]
-    Cache[(Redis)]
 
     UI <-->|WebSocket| API
     UI -->|REST| DB
